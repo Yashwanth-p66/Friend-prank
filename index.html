@@ -60,7 +60,7 @@
 <body>
     
     <h3>Type ur name below , press the sound icon and wait for a while </h3><br><br><br><br><br>
-    <input id="text" placeholder="Example : Madan gowda"/>
+    <input id="text" placeholder="Example : bitch vararpur"/>
     <button id="btn">
         📢
     </button>
@@ -71,7 +71,7 @@
     const text = document.querySelector("#text");
     btn.addEventListener("click",playspeech);
     function playspeech(){
-        const speech = new SpeechSynthesisUtterance("Happy New year"+ text.value + " yeen Full party madidiiira yesterday"+"Shaata taraa");
+        const speech = new SpeechSynthesisUtterance("Happy New year"+ text.value + "and"+" namskaraaa gaandu");
         speechSynthesis.speak(speech);
     }
    </script>
